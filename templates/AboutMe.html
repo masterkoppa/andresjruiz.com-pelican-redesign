@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% set active_page = "About Me" %}
+{% block content %}
+<img class="pull-right img-rounded" src="http://gravatar.com/avatar/e9ea09b83c2aa7353d94199c630cc33f?s=250"></img>
+
+<h1>About Me</h1>
+<br/>
+<p>My name is Andres J Ruiz and currently as student of the Rochester Institute of Technology.
+Currently a thrid year in the Software Engineering program, the program has so far 
+taught me how to work with different technologies such as Java, C, Python and Ruby. I 
+run this website as part of a effort to expose some of my knowledge in the field
+of computers to the world and by doing so have a reference point to past work by
+explaining it to others including my future self.</p>
+<br/>
+<p>Currently my strongest programming language would be Java, followed by Python but bellow is
+a quick overview of my skills with relevant work I have done in each.</p>
+
+<div class="ProgrammingLanguages row-fluid">
+    <div class="offset1 span7">
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Language</th>
+                <th>Programming Experience</th>
+            </tr>
+            <tr>
+                <td><a href="#java" data-toggle="modal" data-remote="Experience/Java.html">
+                    Java</a></td>
+                <td><div class="skill 85"></div></td>
+            </tr>
+            <tr>
+                <td><a href="#python" data-toggle="modal" data-remote="Experience/Python.html">
+                    Python</a></td>
+                <td><div class="skill 60"></div></td>
+            </tr>
+            <tr>
+                <td><a href="#CProg" data-toggle="modal" data-remote="Experience/C-C++.html">
+                C</a></td>
+                <td><div class="skill 35"></div></td>
+            </tr>
+            <tr>
+                <td><a href="#Cplusplus" data-toggle="modal" data-remote="Experience/C-C++.html">
+                    C++</a></td>
+                <td><div class="skill 40"></div></td>
+            </tr>
+            <tr>
+                <td>
+                <a href="#HTML" data-toggle="modal" data-remote="Experience/HTML-JS.html">
+                HTML/JS</a></td>
+                <td><div class="skill 55"></div></td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td><div class="skill 40"></div></td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td><div class="skill 50"></div></td>
+            </tr>
+        </table>
+    </div>
+    <!-- Java Modal -->
+    <div id="java" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 id="myModalLabel">Experience Details</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+
+    <!-- Python Modal -->
+    <div id="python" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 id="myModalLabel">Experience Details</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+
+    <!-- C Modal -->
+    <div id="CProg" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 id="myModalLabel">Experience Details</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+
+    <!-- C++ Modal -->
+    <div id="Cplusplus" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 id="myModalLabel">Experience Details</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+
+    <!-- HTML/JS Modal -->
+    <div id="HTML" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 id="myModalLabel">Experience Details</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
